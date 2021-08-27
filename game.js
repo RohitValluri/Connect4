@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
 class App extends React.Component {
@@ -148,7 +148,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="button" onClick={() => {this.initBoard()}}>New Game</div>
-        <h3>Player 1 : <span class ="dot"></span> Player 2 : <span class ="dot1"></span></h3>
+        <h3>Player 1 : <span className ="dot"></span> Player 2 : <span className ="dot1"></span></h3>
         <p className="message">{this.state.displaymessage}</p>
         <table>
           <thead>
